@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>¡Regístrate y únete a la comunidad!</h1>
+    <br>
+    <div>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" />
+    </div>
+    <br>
+    <div>
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="apellido">
+    </div>
+    <br>
+    <div>
+        <label for="correo">Correo Electrónico: </label>
+        <input type="text" id="correo" name="correo">
+    </div>
+    <br>
+    <div>
+        <label for="contra">Contraseña: </label>
+        <input type="password" id="contra" name="contra">
+    </div>
+    <br>
+    <div>
+        <label for="recontra">Confirmar Contraseña: </label>
+        <input type="password" id="recontra" name="recontra">
+    </div>
+    <br>
+    <div>
+        <label for="fecha_nac">Fecha de Nacimiento: </label>
+        <input type="date" id="fecha_nac" name="fecha_nac">
+    </div>
+    <br>
+    <div>
+        <label>Género: </label>
+        <input type="radio" id="masculino" name="genero">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="no_especifico" name="genero">
+        <label for="no_especifico">Prefiero no decir</label> <br><br />
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" id="suscripcion" name="suscripcion">
+        <label for="suscripcion">Suscríbete a nuestro boletín de noticias</label>
+    </div>
+    <br>
+    <div>
+        <label for="descripcion">Una descripción de mi mismo:</label>
+        <br>
+        <textarea name="descripcion" id="descripcion" rows="4" cols="30"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="interes">Selecciona tus intereses</label>
+        <br>
+        <select name="interes" id="interes">
+            <option value="musica">Música</option>
+            <option value="deportes">Deportes</option>
+            <option value="viajes">Viajes</option>
+            <option value="tecno">Tecnología</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="¡Registrarse!">
+    </div>
+
+</body>
+
+</html>
